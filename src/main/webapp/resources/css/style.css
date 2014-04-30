@@ -1,0 +1,47 @@
+html {
+	background-image:url('../images/background.jpg');
+}
+
+img
+{  border-style: none;
+}
+
+#header {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#page {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#footer_wrapper {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#center-wrapper {
+	width : 1000px;
+	position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#menu-wrapper {
+	width : 600px;
+	position: relative;
+    top: 0px;
+    margin:auto;
+}
+
+#footer_wrapper {
+	padding-top:1cm;
+}
