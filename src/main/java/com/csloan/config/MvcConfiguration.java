@@ -3,6 +3,7 @@ package com.csloan.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -12,11 +13,21 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
 import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
 import org.springframework.web.servlet.view.tiles3.TilesView;
 
+import com.csloan.data.ProjectDAO;
+import com.csloan.data.ProjectDAOImpl;
+import com.csloan.service.ProjectService;
+import com.csloan.service.ProjectServiceImpl;
+
 @Configuration
 @ComponentScan(basePackages="com.csloan")
 @EnableWebMvc
 public class MvcConfiguration extends WebMvcConfigurerAdapter{
 
+	/***
+	 *  Basic Spring Config Beans
+	 * 
+	 */
+	
 	@Bean
 	public ViewResolver getViewResolver(){
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
@@ -49,6 +60,32 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 		resolver.setViewClass(TilesView.class);
 		return resolver;
 	}
-
 	
+	/***
+	 * Database connection & Service beans
+	 */
+
+	@Bean
+	public DriverManagerDataSource getDataSource() {
+		DriverManagerDataSource ds = new DriverManagerDataSource();
+		ds.setDriverClassName("com.mysql.jdbc.Driver");
+		ds.setUrl("jdbc:mysql://localhost:3306/csloan-portfolio");
+		ds.setUsername("root");
+		ds.setPassword("passwd01");
+		return ds;
+	}
+	
+	@Bean
+	public ProjectDAO getProjectDAO() {
+		ProjectDAOImpl projectDAO = new ProjectDAOImpl();
+		projectDAO.setDataSource(getDataSource());
+		return projectDAO;
+	}
+	
+	@Bean
+	public ProjectService getProjectService() {
+		ProjectServiceImpl psi = new ProjectServiceImpl();
+		psi.setProjectDAO(getProjectDAO());
+		return psi;
+	}
 }
