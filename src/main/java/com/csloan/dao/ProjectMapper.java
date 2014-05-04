@@ -1,9 +1,11 @@
-package com.csloan.data;
+package com.csloan.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
+
+import com.csloan.data.Project;
 
 public class ProjectMapper implements RowMapper<Project> {
 

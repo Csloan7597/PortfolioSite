@@ -13,11 +13,6 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
 import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
 import org.springframework.web.servlet.view.tiles3.TilesView;
 
-import com.csloan.data.ProjectDAO;
-import com.csloan.data.ProjectDAOImpl;
-import com.csloan.service.ProjectService;
-import com.csloan.service.ProjectServiceImpl;
-
 @Configuration
 @ComponentScan(basePackages="com.csloan")
 @EnableWebMvc
@@ -73,19 +68,5 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 		ds.setUsername("root");
 		ds.setPassword("passwd01");
 		return ds;
-	}
-	
-	@Bean
-	public ProjectDAO getProjectDAO() {
-		ProjectDAOImpl projectDAO = new ProjectDAOImpl();
-		projectDAO.setDataSource(getDataSource());
-		return projectDAO;
-	}
-	
-	@Bean
-	public ProjectService getProjectService() {
-		ProjectServiceImpl psi = new ProjectServiceImpl();
-		psi.setProjectDAO(getProjectDAO());
-		return psi;
 	}
 }

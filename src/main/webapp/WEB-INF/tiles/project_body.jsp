@@ -5,4 +5,6 @@
         <%--Remainning content--%>
     </tiles:insertDefinition> -->
     
-    Project!
+   
+Project Name: ${project.name}
+Project Description: ${project.description}

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.csloan.data.Project;
-import com.csloan.data.ProjectDAO;
+import com.csloan.dao.ProjectDAO;
 
 @Service
 public class ProjectServiceImpl implements ProjectService{

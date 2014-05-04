@@ -1,6 +1,8 @@
-package com.csloan.data;
+package com.csloan.dao;
 
 import java.util.List;
+
+import com.csloan.data.Project;
 
 public interface ProjectDAO {
 
