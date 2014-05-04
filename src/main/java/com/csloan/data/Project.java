@@ -4,11 +4,12 @@ public class Project {
 
 	private String id;
 	private String name;
-	private String description;
+	private String shortDescription;
 	private String smallIconLink;
 	private String largeIconLink;
 	private String repoLink;
 	private String techUsed;
+	private String longDescription;
 	
 	public String getId() {
 		return id;
@@ -22,11 +23,17 @@ public class Project {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDescription() {
-		return description;
+	public String getLongDescription() {
+		return longDescription;
 	}
-	public void setDescription(String description) {
-		this.description = description;
+	public void setLongDescription(String description) {
+		this.longDescription = description;
+	}
+	public String getShortDescription() {
+		return shortDescription;
+	}
+	public void setShortDescription(String description) {
+		this.shortDescription = description;
 	}
 	public String getSmallIconLink() {
 		return smallIconLink;

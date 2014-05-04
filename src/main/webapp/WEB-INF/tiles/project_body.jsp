@@ -6,5 +6,7 @@
     </tiles:insertDefinition> -->
     
    
-Project Name: ${project.name}
-Project Description: ${project.description}
+<h1>${project.name}</h1>
+
+
+<p>${project.longDescription}</p>

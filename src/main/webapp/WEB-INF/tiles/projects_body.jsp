@@ -1,10 +1,11 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<c:forEach items="${projects}" var="project">     
-   
-   Project Name: <c:out value="${project.name}"/>
-   Project Description: <c:out value="${project.description}"/>
+<h1>Projects</h1>
+
+<c:forEach items="${projects}" var="project">        
+   <h2><c:out value="${project.name}"/></h2>
+   <p><c:out value="${project.shortDescription}"/></p>
    <spring:url value='/projects/${project.id}' var="project_url" />
    Link: <a href="${project_url}">${project.name}</a>
    <br><br>

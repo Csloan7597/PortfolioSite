@@ -6,7 +6,7 @@
 <!-- This is where pages are defined. We give values/attributes to templates to form pages --> 
 
 <tiles-definitions>
-  <definition name="homepage" template="/WEB-INF/layouts/classic-central.jsp">
+  <definition name="homepage" template="/WEB-INF/layouts/zerotype-layout.jsp">
     <put-attribute name="title" value="Home | Conor Sloan" />
     <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
     <put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
@@ -16,7 +16,7 @@
     <put-attribute name="script" value="/resources/javascript/default.js" />
   </definition>
   
-  <definition name="aboutpage" template="/WEB-INF/layouts/classic-central.jsp">
+  <definition name="aboutpage" template="/WEB-INF/layouts/zerotype-layout.jsp">
     <put-attribute name="title" value="About me | Conor Sloan" />
     <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
     <put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
@@ -26,40 +26,36 @@
     <put-attribute name="script" value="/resources/javascript/default.js" />
   </definition>
   
-  <definition name="projectspage" template="/WEB-INF/layouts/classic-central.jsp">
+  <definition name="projectspage" template="/WEB-INF/layouts/zerotype-layout.jsp">
     <put-attribute name="title" value="Projects | Conor Sloan" />
     <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
-    <put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
     <put-attribute name="body" value="/WEB-INF/tiles/projects_body.jsp" />
     <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
     <put-attribute name="css" value="/resources/css/style.css" />
     <put-attribute name="script" value="/resources/javascript/default.js" />
   </definition>
   
-  <definition name="projectpage" template="/WEB-INF/layouts/classic-central.jsp">
+  <definition name="projectpage" template="/WEB-INF/layouts/zerotype-layout.jsp">
     <put-attribute name="title" value="" />
     <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
-    <put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
     <put-attribute name="body" value="/WEB-INF/tiles/project_body.jsp" />
     <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
     <put-attribute name="css" value="/resources/css/style.css" />
     <put-attribute name="script" value="/resources/javascript/default.js" />
   </definition>
   
-   <definition name="contactpage" template="/WEB-INF/layouts/classic-central.jsp">
+   <definition name="contactpage" template="/WEB-INF/layouts/zerotype-layout.jsp">
     <put-attribute name="title" value="Contact | Conor Sloan" />
     <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
-    <put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
     <put-attribute name="body" value="/WEB-INF/tiles/contact_body.jsp" />
     <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
     <put-attribute name="css" value="/resources/css/style.css" />
     <put-attribute name="script" value="/resources/javascript/default.js" />
   </definition>
   
-   <definition name="cvpage" template="/WEB-INF/layouts/classic-central.jsp">
+   <definition name="cvpage" template="/WEB-INF/layouts/zerotype-layout.jsp">
     <put-attribute name="title" value="CV | Conor Sloan" />
     <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
-    <put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
     <put-attribute name="body" value="/WEB-INF/tiles/cv_body.jsp" />
     <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
     <put-attribute name="css" value="/resources/css/style.css" />
