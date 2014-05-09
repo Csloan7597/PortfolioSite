@@ -11,7 +11,7 @@
 			%>
 
 			<div class="logo">
-				<spring:url value='/' var="home_url" />
+				<spring:url value='/home' var="home_url" />
 				<a href="${home_url}"></a>
 			</div>
 			<ul id="navigation">

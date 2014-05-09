@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 
-	@RequestMapping(value="/")
+	@RequestMapping(value="/home")
 	public ModelAndView homePage(HttpServletResponse response) throws IOException{
 		System.out.println("Home Controller");
 		return new ModelAndView("home");
