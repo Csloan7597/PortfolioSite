@@ -4,6 +4,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -12,6 +14,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
 import org.springframework.web.servlet.view.tiles3.TilesView;
+
+import com.csloan.data.Message;
 
 @Configuration
 @ComponentScan(basePackages="com.csloan")
@@ -68,5 +72,39 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 		ds.setUsername("root");
 		ds.setPassword("passwd01");
 		return ds;
+	}
+	
+	/***
+	 * Java Mail
+	 * 
+	 */
+	@Bean
+	public JavaMailSenderImpl getMailSender() {
+		JavaMailSenderImpl jms = new JavaMailSenderImpl();
+		jms.setHost("smtp.gmail.com");
+		jms.setPort(465);
+		jms.setProtocol("smtp");
+		jms.setUsername("conorsloansite@gmail.com");
+		jms.setPassword("passwd01");
+		return jms;
+	}
+	
+	@Bean
+	public SimpleMailMessage getTemplateMailMessage() {
+		SimpleMailMessage smm = new SimpleMailMessage();
+		smm.setFrom("conorsloansite@gmail.com");
+		smm.setTo("c.sloan7597@googlemail.com");
+		smm.setSubject("Message from a site visitor!");
+		return smm;
+	}
+	
+	@Bean
+	public Message getTemplateMessage() {
+		Message message = new Message();
+		message.setSubject("Subject");
+		message.setMessage("Message");
+		message.setName("Name");
+		message.setEmail("Email");
+		return message;
 	}
 }

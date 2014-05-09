@@ -14,6 +14,15 @@
 				<form:textarea path="message"/>
 				<input type="submit" value="Send"/>
 			</form:form>
+			
+			<% boolean messageSent = (Boolean)request.getAttribute("messageSent"); 
+			  //out.println("MESSAGE SENT? "+messageSent);
+			  //out.println("ERROR?"+(request.getAttribute("errorMessage") != null));
+			  if(messageSent) {%>
+			   <font color="green">Thank you - your message was sent successfully!</font> 
+			  <% } else if(request.getAttribute("errorMessage") != null) { %>
+			  <font" color="red">There was an error processing your message:  ${messageError} </font> <% } %>
+			  
 		</div>
 		<div class="section contact">
 			<p>
