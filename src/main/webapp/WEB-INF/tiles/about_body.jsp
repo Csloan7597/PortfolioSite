@@ -1,7 +1,9 @@
 <h1>About Me</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Morbi tempus mauris condimentum arcu. Nunc in quam. Vivamus
- quis quam sed tortor euismod pellentesque. Nulla lobortis. 
-Donec urna metus, adipiscing vel, iaculis vel, congue at, odio. 
-Nullam et dolor id tortor tempor gravida. Curabitur eleifend </p>
+<div class = "section"> 
+<p>I'm Conor Sloan. </p>
+</div>
+
+<div class="section">
+	<img src="<c:url value="/resources/images/me.jpg" />" />	
+</div>
