@@ -248,7 +248,7 @@ p a {
 	margin-right: 30px;
 }
 #connect a {
-	background: url(../images/icons.png) no-repeat;
+	background: url(../images/icons2.png) no-repeat;
 	display: inline-block;
 	height: 30px;
 	width: 30px;
@@ -263,6 +263,10 @@ p a {
 #connect a.tumbler {
 	background-position: 0 -120px;
 }
+#connect a.linkedin {
+	background-position: 0 -160px;
+}
+
 #connect a.facebook:hover {
 	background-position: -40px 0;
 }
@@ -274,6 +278,9 @@ p a {
 }
 #connect a.tumbler:hover {
 	background-position: -40px -120px;
+}
+#connect a.linkedin:hover {
+	background-position: -40px -160px;
 }
 
 
