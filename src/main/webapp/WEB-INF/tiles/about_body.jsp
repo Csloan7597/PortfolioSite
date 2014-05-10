@@ -6,5 +6,5 @@
 </div>
 
 <div class="section">
-	<img src="<c:url value="/resources/images/me.jpg"/>"/>	
+	<img src="<c:url value="/resources/images/me.jpg"/>" width="100%"/>	
 </div>
