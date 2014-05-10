@@ -124,6 +124,13 @@ h2 {
 	line-height: 24px;
 	margin: 0 0 12px;
 }
+h3 {
+	color: #2c2c2c;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 0 0 12px;
+}
 p {
 	color: #585858;
 	font-size: 16px;

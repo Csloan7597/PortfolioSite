@@ -1,5 +1,8 @@
 <h1>CV</h1>
 
+This page describes my qualifications & experience in detail. Alternatively, you can view my 
+CV as a PDF <a href="https://drive.google.com/file/d/0B2HMk1AmTvyAWTBNaGg3MGgxNDA/edit?usp=sharing">here</a>.
+
 <h2>Employment History</h2>
 
 <h3>Software Engineer Intern - British Telecom</h3>
@@ -47,6 +50,9 @@ programming to the new OVM Web Services API, using both SOAP and REST implementa
 
 <h2>Qualifications</h2>
 
+
+
 <h2>Technology Experience</h2>
+
 
 <h2>Everything Else</h2>
