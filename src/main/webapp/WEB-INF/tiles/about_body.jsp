@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <h1>About Me</h1>
 
 <div class = "section"> 
@@ -5,5 +6,5 @@
 </div>
 
 <div class="section">
-	<img src="<c:url value="/resources/images/me.jpg" />" />	
+	<img src="<c:url value="/resources/images/me.jpg"/>"/>	
 </div>
