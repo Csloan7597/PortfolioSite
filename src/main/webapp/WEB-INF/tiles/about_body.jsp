@@ -2,8 +2,11 @@
 <h1>About Me</h1>
 
 <div class = "section"> 
-<p>I'm Conor Sloan, a recently graduated Software Development Engineer for the <a href="www.bookdepository.com">Book Depository</a>, an <a href="www.amazon.co.uk">Amazon</a> company.<br> 
-I was born in Wallasey, Merseyside on the 24th January 1992, and grew up in various locations including Surrey and Munster, Germany. <br>
+<p>I'm Conor Sloan, a recently graduated Software Development Engineer for the 
+<a href="www.bookdepository.com" target="_blank">Book Depository</a>, an 
+<a href="www.amazon.co.uk" target="_blank">Amazon</a> company.<br><br> 
+I was born in Wallasey, Merseyside on the 24th January 1992, and grew up in various 
+locations including Surrey and Munster, Germany. <br>
  
 
 
