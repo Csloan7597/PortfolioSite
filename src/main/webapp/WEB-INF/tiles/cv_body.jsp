@@ -9,15 +9,13 @@ During a three month Summer Placement, I worked with one other student on a rese
 project, using rapid development techniques to create a product, with the potential for this to be used 
 by BT in future products.<br><br>
 
-<b>Responsibilities</b>:<br><br>
+<b>Responsibilities:</b><br>
 
-<ul>
-<li> Design and implement algorithms for large scale graph processing
-<li> Research Distributed Systems, Graph Theory, & Graph DB & Visualisation
-<li> Perform technical presentations to potential customers & BT staff on research
-<li> Perform Rapid Development of solutions for potential customers
-<li> Use Agile techniques for efficient team work
-</ul>
+- Design and implement algorithms for large scale graph processing<br>
+- Research Distributed Systems, Graph Theory, & Graph DB & Visualisation<br>
+- Perform technical presentations to potential customers & BT staff on research<br>
+- Perform Rapid Development of solutions for potential customers<br>
+- Use Agile techniques for efficient team work<br><br>
 
 <b>Technologies Used:</b><br>
 <i>Java, Python, Apache Hadoop, Apache Giraph, Apache Hive, Gephi, Eclipse, NetBeans, Git, Linux</i>
@@ -25,27 +23,26 @@ by BT in future products.<br><br>
 
 
 <h3>Software Engineer - Oracle Corporation</h3>
-<i>July 2012 - May 2013 (11 months) Dublin, Ireland</i>
+<p><b><i>July 2012 - May 2013 (11 months) Dublin, Ireland</i></b><br><br>
 
-During my Internship with Oracle, I worked in 3 teams.
+During my Internship with Oracle, I worked in 3 teams.<br>
+For the majority of my time, I worked with the OVM for x86 QE Team as a Java Developer, 
+programming to the new OVM Web Services API, using both SOAP and REST implementations.<br><br>
 
-For the majority of my time, I worked with the OVM for x86 QE Team as a Java Developer, programming to the new OVM Web Services API, using both SOAP and REST implementations.
+<b>Responsibilities:</b><br>
 
-Responsibilities:
+- Develop Complex SOAP & REST Web Services Clients, Functional Tests & framework infrastructure<br>
+- Redesign projects based on Object Oriented Design principles and Design Patterns<br>
+- Take the lead on projects in early stages of Development<br>
+- Perform Presentations to Colleagues and Superiors based on Technology Research<br>
+- Train new staff members, including one Senior Development Engineer<br>
+- Work in an Agile development environment<br>
+- Develop scripts for automation<br>
+- Troubleshoot Hardware & Network issues<br><br>
 
-• Develop Complex SOAP & REST Web Services Clients, Functional Tests & framework infrastructure
-• Redesign projects based on Object Oriented Design principles and Design Patterns
-• Take the lead on projects in early stages of Development
-• Perform Presentations to Colleagues and Superiors based on Technology Research
-• Train new staff members, including one Senior Development Engineer
-• Work in an Agile development environment
-• Develop scripts for automation
-• Troubleshoot Hardware & Network issues
-
-Technologies Used:
-
-Java, Python, XML, Bash, Linux, Unix, Web Services, SOAP, REST, Virtualisation (OVM, Zones, Logical Domains), Subversion, TestNG, Eclipse, Crucible, Jira, Confluence, Agile, SuperCluster, BugDB
-
+<b>Technologies Used:</b><br>
+<i>Java, Python, XML, Bash, Linux, Unix, Web Services, SOAP, REST, Virtualisation (OVM, Zones, Logical Domains), Subversion, TestNG, Eclipse, Crucible, Jira, Confluence, Agile, SuperCluster, BugDB</i>
+</p>
 
 
 <h2>Qualifications</h2>
