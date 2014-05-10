@@ -73,7 +73,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 		//ds.setPassword("passwd01");
 		ds.setUsername("adminKTKzVXd");
 		ds.setPassword("quSB7MC3JMwV");
-		ds.setUrl("jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/");  
+		ds.setUrl("jdbc:mysql://127.5.55.130:3306/portfoliosite");  
 		return ds;
 	}
 	
