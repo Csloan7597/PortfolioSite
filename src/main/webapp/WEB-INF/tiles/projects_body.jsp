@@ -13,7 +13,7 @@
 		   Link: <a href="${project_url}">${project.name}</a>
 		</div>
 		<div class="section">
-		Test
+		<img src="<c:url value="${project.smallIconLink}"/>" width="100%"/>	
 		</div>
  	</div>
 	<br><br>

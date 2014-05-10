@@ -8,5 +8,6 @@
    
 <h1>${project.name}</h1>
 
+<img src="<c:url value="${project.largeIconLink}"/>" width="100%"/>	
 
 <p>${project.longDescription}</p>
