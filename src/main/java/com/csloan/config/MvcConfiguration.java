@@ -68,9 +68,12 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 	public DriverManagerDataSource getDataSource() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 		ds.setDriverClassName("com.mysql.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://localhost:3306/csloan-portfolio");
-		ds.setUsername("root");
-		ds.setPassword("passwd01");
+		//ds.setUrl("jdbc:mysql://localhost:3306/csloan-portfolio");
+		//ds.setUsername("root");
+		//ds.setPassword("passwd01");
+		ds.setUsername("adminKTKzVXd");
+		ds.setPassword("quSB7MC3JMwV");
+		ds.setUrl("jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/");  
 		return ds;
 	}
 	

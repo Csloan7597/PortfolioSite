@@ -31,7 +31,7 @@ public class ContactController {
 		ModelAndView contact = new ModelAndView("contact");
 		contact.addObject("message", templateMessage);
 		contact.addObject("messageSent", false);
-		return contact;
+		return contact;  
 	}
 	
 	@SuppressWarnings("finally")
