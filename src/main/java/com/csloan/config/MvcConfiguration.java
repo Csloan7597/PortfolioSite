@@ -74,7 +74,9 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 		System.out.println(System.getenv("OPENSHIFT_MYSQL_DB_HOST")+" HOST HOST HOST CONOR LOOK");
 		ds.setUsername("adminKTKzVXd");
 		ds.setPassword("quSB7MC3JMwV");
-		ds.setUrl("jdbc:mysql://127.5.55.130:3306/portfoliosite");  
+		//ds.setUrl("jdbc:mysql://127.5.55.130:3306/portfoliosite");  
+		ds.setUrl(String.format("jdbc:mysql://%s:%s/portfoliosite", 
+				System.getenv("OPENSHIFT_MYSQL_DB_HOST"), System.getenv("OPENSHIFT_MYSQL_DB_PORT")));
 		return ds;
 	}
 	
