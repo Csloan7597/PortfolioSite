@@ -1,7 +1,6 @@
 <h1>CV</h1>
-
 This page describes my qualifications & experience in detail. Alternatively, you can view my 
-CV as a PDF <a href="https://drive.google.com/file/d/0B2HMk1AmTvyAWTBNaGg3MGgxNDA/edit?usp=sharing">here</a>.
+CV as a PDF <a href="https://drive.google.com/file/d/0B2HMk1AmTvyAWTBNaGg3MGgxNDA/edit?usp=sharing">here</a>. <br><br>
 
 <h2>Employment History</h2>
 
@@ -49,8 +48,13 @@ programming to the new OVM Web Services API, using both SOAP and REST implementa
 
 
 <h2>Qualifications</h2>
+<p>I am currently in the final year of a BSc in Computer Science at the University of Leeds, expected to achieve a first classification. <br><br>
 
+I have attained A Levels in Computing, Economics & Law, all at A grade, as well as an A* in General Studies.<br>
+I also attained B grade in AS Level Mathematics. <br><br> 
 
+I have 11 GCSEs: 7 As including Maths, English, Biology, Chemistry & Physics.  
+and all three Science subjects.</p>
 
 <h2>Technology Experience</h2>
 
