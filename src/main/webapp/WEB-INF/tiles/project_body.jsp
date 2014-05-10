@@ -13,4 +13,4 @@
 <br><br>
 <p>${project.longDescription}</p>
 <br><br>
-This project can be found at the following link: <a href="${project.repoLink}"></a>
+This project can be found at the following link: <a href="${project.repoLink}">${project.name}</a>
