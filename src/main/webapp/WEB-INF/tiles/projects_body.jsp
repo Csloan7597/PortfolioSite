@@ -3,10 +3,18 @@
 
 <h1>Projects</h1>
 
-<c:forEach items="${projects}" var="project">        
-   <h2><c:out value="${project.name}"/></h2>
-   <p><c:out value="${project.shortDescription}"/></p>
-   <spring:url value='/projects/${project.id}' var="project_url" />
-   Link: <a href="${project_url}">${project.name}</a>
-   <br><br>
+<c:forEach items="${projects}" var="project">
+
+	<div class="block" width="100%">       
+		<div class="section">
+		   <h2><c:out value="${project.name}"/></h2>
+		   <p><c:out value="${project.shortDescription}"/></p>
+		   <spring:url value='/projects/${project.id}' var="project_url" />
+		   Link: <a href="${project_url}">${project.name}</a>
+		</div>
+		<div class="section">
+		Test
+		</div>
+ 	</div>
+	<br><br>
 </c:forEach>
