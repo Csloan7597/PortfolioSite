@@ -35,6 +35,9 @@
 					<spring:url value='/contact' var="contact_url" />
 					<a href="${contact_url}">Contact</a>
 				</li>
+				<li> 
+					<a href="http://blog.conorsloan.co.uk">Blog</a>
+				</li>
 			</ul>
 		</div>
 		
