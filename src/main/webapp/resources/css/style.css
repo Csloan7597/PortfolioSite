@@ -296,6 +296,9 @@ p a {
 
 .block {
 	padding-bottom:25px;
+	margin-bottom:25px;
+	width: 100%;
+	float: left;
 }
 
 .message input[type='text'], .message textarea {

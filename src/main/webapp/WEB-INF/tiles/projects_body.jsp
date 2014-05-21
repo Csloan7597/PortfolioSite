@@ -5,7 +5,7 @@
 
 <c:forEach items="${projects}" var="project">
 
-	<div class="block" width="100%">       
+	<div class="block">       
 		<div class="section">
 		   <h2><c:out value="${project.name}"/></h2>
 		   <p><c:out value="${project.shortDescription}"/></p>
@@ -16,6 +16,5 @@
 		<img src="<c:url value="${project.smallIconLink}"/>" width="100%"/>	
 		</div><br><br>
  	</div>
- 	<div class="separator" height="25px"><br><br><HR WIDTH=70% ALIGN=CENTER></div>
 	<br><br>
 </c:forEach>
