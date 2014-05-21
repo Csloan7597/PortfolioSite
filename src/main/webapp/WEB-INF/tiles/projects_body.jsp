@@ -16,6 +16,6 @@
 		<img src="<c:url value="${project.smallIconLink}"/>" width="100%"/>	
 		</div><br><br>
  	</div>
- 	<div class="separator" height="25px"><br><br>test</div>
+ 	<div class="separator" height="25px"><br><br></div>
 	<br><br>
 </c:forEach>
