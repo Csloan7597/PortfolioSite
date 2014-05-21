@@ -14,7 +14,7 @@
 		</div>
 		<div class="section">
 		<img src="<c:url value="${project.smallIconLink}"/>" width="100%"/>	
-		</div>
+		</div><br><br>
  	</div>
 	<br><br>
 </c:forEach>
