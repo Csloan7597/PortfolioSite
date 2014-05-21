@@ -296,9 +296,11 @@ p a {
 
 .block {
 	padding-bottom:25px;
-	margin-bottom:25px;
+	margin-bottom:100px;
 	width: 100%;
 	float: left;
+	border:2px solid;
+	border-radius:25px;
 }
 
 .message input[type='text'], .message textarea {
