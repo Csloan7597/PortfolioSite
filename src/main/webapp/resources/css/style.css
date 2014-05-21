@@ -293,6 +293,11 @@ p a {
 .section h1 {
 	margin-bottom: 18px;
 }
+
+.block {
+	padding-bottom:25px;
+}
+
 .message input[type='text'], .message textarea {
 	color: #aeaeae;
 	font-size: 13px;
