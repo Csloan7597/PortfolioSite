@@ -2,8 +2,8 @@
 <i>This page describes my qualifications & experience in detail. Alternatively, you can view my 
 CV as a PDF <a href="https://drive.google.com/file/d/0B2HMk1AmTvyAWTBNaGg3MGgxNDA/edit?usp=sharing">here</a></i>. <br><br>
 
-<h2>Employment History</h2>
-
+<div onClick="openClose('a1')" style="cursor:hand; cursor:pointer"><h2>Employment History</h2></div>
+<div id="a1" class="texter">
 <h3>Software Engineer Intern - British Telecom</h3>
 <p><b><i>June 2013 - September 2013 (4 months) Ipswich, United Kingdom</i></b><br><br>
 
@@ -45,6 +45,15 @@ programming to the new OVM Web Services API, using both SOAP and REST implementa
 <b>Technologies Used:</b><br>
 <i>Java, Python, XML, Bash, Linux, Unix, Web Services, SOAP, REST, Virtualisation (OVM, Zones, Logical Domains), Subversion, TestNG, Eclipse, Crucible, Jira, Confluence, Agile, SuperCluster, BugDB</i>
 </p>
+<br /><br />
+</div>
+
+
+
+
+
+
+
 
 
 <h2>Qualifications</h2>

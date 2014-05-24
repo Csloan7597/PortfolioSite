@@ -14,6 +14,20 @@
   		<tiles:importAttribute name="script" /> 
   		<script type="text/javascript" src="<c:url value="${script}"/>"></script> 
   		<link href="<c:url value="/resources/images/favicon.ico"/>" rel="shortcut icon" type="image/x-icon" />
+  		
+  		<script language="JavaScript" type="text/javascript">
+		if (document.getElementById) {
+		document.writeln('<style type="text/css"><!--')
+		document.writeln('.texter {display:none} @media print {.texter {display:block;}}')
+		document.writeln('//--></style>') }
+		function openClose(theID) {
+			if (document.getElementById(theID).style.display == "block") { document.getElementById(theID).style.display = "none" }
+			else { document.getElementById(theID).style.display = "block" } }
+		</script>
+
+
+  		
+  		
     </head>
     <body>
         <div id="header">
