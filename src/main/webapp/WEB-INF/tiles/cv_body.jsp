@@ -53,10 +53,10 @@ programming to the new OVM Web Services API, using both SOAP and REST implementa
 
 
 
+<div onClick="openClose('a2')" style="cursor:hand; cursor:pointer">
+<h2>Qualifications</h2></div>
+<div id="a2" class="texter">
 
-
-
-<h2>Qualifications</h2>
 <p>I am currently in the final year of a BSc in Computer Science at the University of Leeds, expected to achieve a first classification. <br>
 
 I have attained A Levels in Computing, Economics & Law, all at A grade, as well as an A* in General Studies.<br>
@@ -65,7 +65,23 @@ I also attained B grade in AS Level Mathematics. <br>
 I have 11 GCSEs: 7 As including Maths, English, Biology, Chemistry & Physics.  
 and all three Science subjects.</p>
 
+<br /><br />
+</div>
+
+<div onClick="openClose('a3')" style="cursor:hand; cursor:pointer">
 <h2>Technology Experience</h2>
+</div>
+<div id="a3" class="texter">
+Tech exp here
+<br /><br />
+</div>
 
-
+<div onClick="openClose('a4')" style="cursor:hand; cursor:pointer">
 <h2>Everything Else</h2>
+</div>
+<div id="a4" class="texter">
+everything else!
+
+
+<br /><br />
+</div>
