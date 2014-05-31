@@ -1,5 +1,5 @@
 <script type="text/javascript">
-    window.onload = setupOpenClose;
+   	setupOpenClose();
 </script>
 
 <h1>CV</h1>

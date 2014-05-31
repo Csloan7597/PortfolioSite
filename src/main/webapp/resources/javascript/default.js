@@ -1,4 +1,8 @@
 
+function sayHello() {
+	alert("Hello!");
+}
+
 function setupOpenClose() {
 	console.log ( 'setup open close method!' );
 	if (document.getElementById) {
