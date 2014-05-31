@@ -13,8 +13,7 @@
   		<link href="<c:url value="${css}"/>" rel="stylesheet" type="text/css" /> 
   		<tiles:importAttribute name="script" /> 
   		<script type="text/javascript" src="<c:url value="${script}"/>"></script> 
-  		<link href="<c:url value="/resources/images/favicon.ico"/>" rel="shortcut icon" type="image/x-icon" />
-  		
+  		<link href="<c:url value="/resources/images/favicon.ico"/>" rel="shortcut icon" type="image/x-icon" />	
     </head>
     <body>
         <div id="header">

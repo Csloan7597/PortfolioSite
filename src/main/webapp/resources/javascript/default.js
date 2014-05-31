@@ -1,8 +1,12 @@
-if (document.getElementById) {
-	document.writeln('<style type="text/css"><!--');
-	document.writeln('.texter {display:none} @media print {.texter {display:block;}}');
-	document.writeln('//--></style>'); 
-	}
+
+function setupOpenClose() {
+	console.log ( 'setup open close method!' );
+	if (document.getElementById) {
+		document.writeln('<style type="text/css"><!--');
+		document.writeln('.texter {display:none} @media print {.texter {display:block;}}');
+		document.writeln('//--></style>'); 
+		}
+}
 
 
 function openClose(theID) {

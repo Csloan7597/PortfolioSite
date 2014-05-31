@@ -1,3 +1,7 @@
+<script type="text/javascript">
+    window.onload = setupOpenClose;
+</script>
+
 <h1>CV</h1>
 <i>This page describes my qualifications & experience in detail. Alternatively, you can view my 
 CV as a PDF <a href="https://drive.google.com/file/d/0B2HMk1AmTvyAWTBNaGg3MGgxNDA/edit?usp=sharing">here</a></i>. <br><br>
