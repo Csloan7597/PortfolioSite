@@ -1,6 +1,7 @@
 <script type="text/javascript">
    	// Configure expand/collapse func from default.js
    	sayHello();
+   	logHello();
    	setupOpenClose();
    	setTitle("${project.name} | Conor Sloan");
 </script>  
