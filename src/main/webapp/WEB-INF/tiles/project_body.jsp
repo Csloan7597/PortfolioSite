@@ -11,7 +11,7 @@
 <h1>${project.name}</h1>
 
 <img src="<c:url value="${project.largeIconLink}"/>" width="100%"/>	
-<br><br>
+<br>
 
 <div onClick="openClose('p1')" style="cursor:hand; cursor:pointer"><h3>Project Description</h3></div>
 <div id="p1" class="texter">
@@ -19,7 +19,7 @@
 <br>
 </div>
 
-<div onClick="openClose('p2')" style="cursor:hand; cursor:pointer"><h3>Technologies Used:</h3></div>
+<div onClick="openClose('p2')" style="cursor:hand; cursor:pointer"><h3>Technologies Used</h3></div>
 <div id="p2" class="texter">
 <p>${project.techUsed}</p>
 <br>
