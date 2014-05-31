@@ -1,4 +1,5 @@
-<script type="text/javascript">
+<script>
+	alert("First hello");
    	// Configure expand/collapse func from default.js
    	sayHello();
    	logHello();
