@@ -1,17 +1,11 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
-
 <script type="text/javascript">
    	// Configure expand/collapse func from default.js
+   	sayHello();
    	setupOpenClose();
-   	//setTitle("");
+   	setTitle("${project.name} | Conor Sloan");
 </script>  
 
-<!--   <tiles:insertDefinition name="staticview">
-        <tiles:putAttribute name="title"> 
-            ${title} <%--OR, <s:property value="title"/>--%>
-        </tiles:putAttribute>
-        <%--Remainning content--%>
-    </tiles:insertDefinition> -->
+
     
   
 <h1>${project.name}</h1>

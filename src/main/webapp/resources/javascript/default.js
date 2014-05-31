@@ -3,6 +3,10 @@ function sayHello() {
 	alert("Hello!");
 }
 
+function setTitle(title) {
+	document.title = title;
+}
+
 function setupOpenClose() {
 	console.log ( 'setup open close method!' );
 	if (document.getElementById) {
