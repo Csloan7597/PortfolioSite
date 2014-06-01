@@ -10,6 +10,8 @@ import com.csloan.data.Message;
 @Service
 public class MailServiceImpl implements MailService {
 
+	private final static char NEWLINE = '\n';
+	
 	private JavaMailSender mailSender;
 	private SimpleMailMessage templateMessage;
     
@@ -27,13 +29,14 @@ public class MailServiceImpl implements MailService {
 	public void sendMessageAsMail(Message message) {
 		SimpleMailMessage toSend = new SimpleMailMessage(templateMessage);
 		toSend.setSubject("From Site: "+message.getSubject());
-		toSend.setText(message.getMessage()+"\n"+"Name: "+message.getName() + "Email: "+message.getEmail());
+		toSend.setText("Name: "+message.getName() +NEWLINE+ "Email: "+message.getEmail()+
+				NEWLINE+NEWLINE+message.getMessage());
 		mailSender.send(toSend);
 	}
 
 	@Override
 	public void sendMail(SimpleMailMessage message) {
-		// TODO 	
+		mailSender.send(message); 	
 	}
 
 }
