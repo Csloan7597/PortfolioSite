@@ -10,7 +10,7 @@ function logHello() {
 function setTitle(title) {
 	document.title = title;
 	console.log("Set title: "+title);
-	console.log("Title: "+document.title);
+	console.log("Title: "+document.title); 
 }
 
 function setupOpenClose() {
