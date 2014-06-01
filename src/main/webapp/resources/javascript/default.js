@@ -3,9 +3,9 @@ function sayHello() {
 	alert("Hello!");
 }
 
-function logHello() {
-	console.log("Hello!");
-}
+//function logHello() {
+//	console.log("Hello!");
+//}
 
 //function setTitle(title) {
 //	document.title = title;
