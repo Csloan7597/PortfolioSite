@@ -26,7 +26,7 @@
 		</div>
 		<div class="section contact">
 			<p>
-				For Inquiries Please Call: <span>07769155568</span>
+				For Inquiries Please Call: <span><a href="tel:07769155568" style="text-decoration:none;">07769155568</a></span>
 			</p>
 			<p>
 				Or you can email me at: <span><a href="mailto:c.sloan7597@googlemail.com" style="text-decoration:none;">c.sloan7597<br>@googlemail.com</a></span>
