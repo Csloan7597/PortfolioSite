@@ -36,7 +36,7 @@
   </definition>
   
   <definition name="projectpage" template="/WEB-INF/layouts/zerotype-layout.jsp">
-    <put-attribute name="title" value="test" />
+    <put-attribute name="title" value="" />
     <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
     <put-attribute name="body" value="/WEB-INF/tiles/project_body.jsp" />
     <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />

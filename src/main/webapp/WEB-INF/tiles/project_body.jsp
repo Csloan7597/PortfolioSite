@@ -1,12 +1,14 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <script type="text/javascript">
    	// Configure expand/collapse func from default.js
-   	sayHello();
+   	//sayHello();
    	//logHello();
    	setupOpenClose();
    	//setTitle("${project.name} | Conor Sloan");
 </script>  
 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
     
   
 <h1>${project.name}</h1>
