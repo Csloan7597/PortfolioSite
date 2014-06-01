@@ -1,5 +1,7 @@
 package com.csloan.config;
 
+import java.util.Properties;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -86,12 +88,22 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 	 */
 	@Bean
 	public JavaMailSenderImpl getMailSender() {
+		
+		// Initial sender configuration for GMAIL
 		JavaMailSenderImpl jms = new JavaMailSenderImpl();
 		jms.setHost("smtp.gmail.com");
-		jms.setPort(465);
+		jms.setPort(587);
 		jms.setProtocol("smtp");
 		jms.setUsername("conorsloansite@gmail.com");
 		jms.setPassword("passwd01");
+		
+		// Extra properties
+		Properties javaMailProperties = new Properties();
+		javaMailProperties.setProperty("mail.smtp.auth", "true");
+		javaMailProperties.setProperty("mail.smtp.starttls.enable", "true");
+		jms.setJavaMailProperties(javaMailProperties);
+		
+		// Return sender
 		return jms;
 	}
 	
@@ -99,7 +111,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 	public SimpleMailMessage getTemplateMailMessage() {
 		SimpleMailMessage smm = new SimpleMailMessage();
 		smm.setFrom("conorsloansite@gmail.com");
-		smm.setTo("c.sloan7597@googlemail.com");
+		smm.setTo("conorsloansite@gmail.com");
 		smm.setSubject("Message from a site visitor!");
 		return smm;
 	}

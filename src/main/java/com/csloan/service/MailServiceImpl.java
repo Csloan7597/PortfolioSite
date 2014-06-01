@@ -33,8 +33,7 @@ public class MailServiceImpl implements MailService {
 
 	@Override
 	public void sendMail(SimpleMailMessage message) {
-		// TODO 
-		
+		// TODO 	
 	}
 
 }
