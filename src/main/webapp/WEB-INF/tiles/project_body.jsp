@@ -6,13 +6,14 @@
    	//setTitle("${project.name} | Conor Sloan");
 </script>  
 
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     
   
 <h1>${project.name}</h1>
 
 <img src="<c:url value="${project.largeIconLink}"/>" width="100%"/>	
-<br>
+
+<br><br>
 
 <div onClick="openClose('p1')" style="cursor:hand; cursor:pointer"><h3>Project Description</h3></div>
 <div id="p1" class="texter">
