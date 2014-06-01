@@ -1,15 +1,15 @@
 
-//function sayHello() {
-//	alert("Hello!");
-//}
-//
-//function logHello() {
-//	console.log("Hello!");
-//}
-//
-//function setTitle(title) {
-//	document.title = title;
-//}
+function sayHello() {
+	alert("Hello!");
+}
+
+function logHello() {
+	console.log("Hello!");
+}
+
+function setTitle(title) {
+	document.title = title;
+}
 
 function setupOpenClose() {
 	console.log ( 'setup open close method!' );
