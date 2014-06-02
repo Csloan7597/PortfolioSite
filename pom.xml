@@ -59,6 +59,29 @@
 	<artifactId>spring-context-support</artifactId>
 	<version>${spring.version}</version>
 </dependency>
+
+<!-- Spring Test -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-test</artifactId>
+    <version>${spring.version}</version>
+</dependency>
+ 
+<!-- This is for mocking the service -->
+ 
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-all</artifactId>
+    <version>1.9.5</version>
+    <scope>test</scope>
+</dependency>
+            
+<!-- JUnit for testing -->
+<dependency>
+	<groupId>junit</groupId>
+	<artifactId>junit</artifactId>
+	<version>4.11</version>
+</dependency>            
             
             <dependency>
 	<groupId>javax.mail</groupId>
@@ -71,7 +94,7 @@
 	<artifactId>log4j</artifactId>
 	<version>1.2.17</version>
 </dependency>
-            
+             
             
             <dependency>
 	<groupId>mysql</groupId>
@@ -92,8 +115,8 @@
 		<!-- Servlet Spec -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.4</version>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
