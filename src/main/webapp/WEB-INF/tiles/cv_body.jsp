@@ -9,7 +9,10 @@ CV as a PDF <a href="https://drive.google.com/file/d/0B2HMk1AmTvyAWTBNaGg3MGgxND
 
 <div onClick="openClose('a1')" style="cursor:hand; cursor:pointer"><h2>Employment History</h2></div>
 <div id="a1" class="texter">
-<h3>Software Engineer Intern - British Telecom</h3>
+
+<div onClick="openClose('a11')" style="cursor:hand; cursor:pointer"><h3>Software Engineer Intern - British Telecom</h3></div>
+<div id="a11" class="texter">
+
 <p><b><i>June 2013 - September 2013 (4 months) Ipswich, United Kingdom</i></b><br><br>
 
 During a three month Summer Placement, I worked with one other student on a research and development 
@@ -27,9 +30,12 @@ by BT in future products.<br><br>
 <b>Technologies Used:</b><br>
 <i>Java, Python, Apache Hadoop, Apache Giraph, Apache Hive, Gephi, Eclipse, NetBeans, Git, Linux</i>
 </p>
+</div>
+
+<div onClick="openClose('a12')" style="cursor:hand; cursor:pointer"><h3>Software Engineer - Oracle Corporation</h3></div>
+<div id="a12" class="texter">
 
 
-<h3>Software Engineer - Oracle Corporation</h3>
 <p><b><i>July 2012 - May 2013 (11 months) Dublin, Ireland</i></b><br><br>
 
 During my Internship with Oracle, I worked in 3 teams.<br>
@@ -50,27 +56,330 @@ programming to the new OVM Web Services API, using both SOAP and REST implementa
 <b>Technologies Used:</b><br>
 <i>Java, Python, XML, Bash, Linux, Unix, Web Services, SOAP, REST, Virtualisation (OVM, Zones, Logical Domains), Subversion, TestNG, Eclipse, Crucible, Jira, Confluence, Agile, SuperCluster, BugDB</i>
 </p>
-<br /><br />
 </div>
-
-
-
-
+<br />
+</div>
 
 
 <div onClick="openClose('a2')" style="cursor:hand; cursor:pointer">
 <h2>Qualifications</h2></div>
 <div id="a2" class="texter">
+<br>
 
-<p>I am currently in the final year of a BSc in Computer Science at the University of Leeds, expected to achieve a first classification. <br>
+<div class="section">
+<b>University Modules:</b><br>
+<div class="CSSTable" >
+                <table >
+                    <tr>
+                        <td>
+                            Module Name
+                        </td>
+                        <td >
+                            Grade
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Parallel Scientific Computing
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Natural Language Processing
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Biological & Bio-Inspired Computation
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Distributed Systems
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Knowledge Representation
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            User Adaptive Intelligent Systems
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Artificial Intelligence
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Interactive Database Systems
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Software Systems Engineering
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Theoretical Computer Science
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Practical Problem Solving
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Core Programming
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Modelling, Analysis & Algorithm Design
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Maths for Computing
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Project Management
+                        </td>
+                        <td>
+                            1st
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Numerical Computation & Visualisation
+                        </td>
+                        <td>
+                            2:1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Professional Development
+                        </td>
+                        <td>
+                            2:1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Computer Systems
+                        </td>
+                        <td>
+                            2:1
+                        </td>
+                    </tr>
+                </table>
+            </div> 
+</div>
 
-I have attained A Levels in Computing, Economics & Law, all at A grade, as well as an A* in General Studies.<br>
-I also attained B grade in AS Level Mathematics. <br>
+<div class="section">
+<b>A Levels:</b>
+<br>
+<div class="CSSTable" >
+                <table >
+                    <tr>
+                        <td>
+                            Subject
+                        </td>
+                        <td >
+                            Grade
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Computing
+                        </td>
+                        <td>
+                            A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Economics
+                        </td>
+                        <td>
+                            A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Law
+                        </td>
+                        <td>
+                            A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            General Studies
+                        </td>
+                        <td>
+                            A*
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Mathematics (AS)
+                        </td>
+                        <td>
+                            B
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-I have 11 GCSEs: 7 As including Maths, English, Biology, Chemistry & Physics.  
-and all three Science subjects.</p>
-
-<br /><br />
+<br>
+<b>GCSEs:</b>
+<br>
+<div class="CSSTable" >
+                <table >
+                    <tr>
+                        <td>
+                            Subject
+                        </td>
+                        <td >
+                            Grade
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            English (Language & Literature)
+                        </td>
+                        <td>
+                            A & B
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Mathematics
+                        </td>
+                        <td>
+                            A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Physics
+                        </td>
+                        <td>
+                            A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Biology
+                        </td>
+                        <td>
+                            A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Chemistry
+                        </td>
+                        <td>
+                            A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            History
+                        </td>
+                        <td>
+                            A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Religious Studies
+                        </td>
+                        <td>
+                            A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Drama
+                        </td>
+                        <td>
+                            B
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Spanish
+                        </td>
+                        <td>
+                            C
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            DT
+                        </td>
+                        <td>
+                            C
+                        </td>
+                    </tr>
+                </table>
+            </div>
+	<br>
+</div>
+<br>
 </div>
 
 <div onClick="openClose('a3')" style="cursor:hand; cursor:pointer">
