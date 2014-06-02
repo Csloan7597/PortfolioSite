@@ -10,8 +10,22 @@ CV as a PDF <a href="https://drive.google.com/file/d/0B2HMk1AmTvyAWTBNaGg3MGgxND
 <div onClick="openClose('a1')" style="cursor:hand; cursor:pointer"><h2>Employment History</h2></div>
 <div id="a1" class="texter">
 
-<div onClick="openClose('a11')" style="cursor:hand; cursor:pointer"><h3>Software Engineer Intern - British Telecom</h3></div>
+<div onClick="openClose('a11')" style="cursor:hand; cursor:pointer"><h3>Software Development Engineer (SDE) - Amazon / The Book Depository</h3></div>
 <div id="a11" class="texter">
+<p><b><i>June 2014 - Present Slough, United Kingdom</i></b><br><br>
+
+Graduate role with online book retailed TBD, subsidiary of Amazon.com. <br><br>
+<b>Responsibilities:</b><br>
+- To be determined <br><br>
+
+<b>Technologies Used:</b><br>
+<i>Java, Spring, MVC, Maven, Memcached</i>
+</p>
+
+</div>
+
+<div onClick="openClose('a12')" style="cursor:hand; cursor:pointer"><h3>Software Engineer Intern - British Telecom</h3></div>
+<div id="a12" class="texter">
 
 <p><b><i>June 2013 - September 2013 (4 months) Ipswich, United Kingdom</i></b><br><br>
 
@@ -32,8 +46,8 @@ by BT in future products.<br><br>
 </p>
 </div>
 
-<div onClick="openClose('a12')" style="cursor:hand; cursor:pointer"><h3>Software Engineer - Oracle Corporation</h3></div>
-<div id="a12" class="texter">
+<div onClick="openClose('a13')" style="cursor:hand; cursor:pointer"><h3>Software Engineer - Oracle Corporation</h3></div>
+<div id="a13" class="texter">
 
 
 <p><b><i>July 2012 - May 2013 (11 months) Dublin, Ireland</i></b><br><br>
@@ -76,6 +90,14 @@ programming to the new OVM Web Services API, using both SOAP and REST implementa
                         </td>
                         <td >
                             Grade
+                        </td>
+                    </tr>
+                     <tr>
+                        <td >
+                            Final Year Project - An Evaluation of OpenStack
+                        </td>
+                        <td>
+                            PENDING
                         </td>
                     </tr>
                     <tr>
