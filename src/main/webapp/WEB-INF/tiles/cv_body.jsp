@@ -4,12 +4,14 @@
 </script>
 
 <h1>CV</h1>
-<i>This page describes my qualifications & experience in detail. Alternatively, you can view my 
+<i>This page describes my qualifications & experience in detail. Please click each link to expand the relevant section.<br> 
+Alternatively, you can view my 
 CV as a PDF <a href="https://drive.google.com/file/d/0B2HMk1AmTvyAWTBNaGg3MGgxNDA/edit?usp=sharing">here</a></i>. <br><br>
 
 <div onClick="openClose('a1')" style="cursor:hand; cursor:pointer"><h2>Employment History</h2></div>
 <div id="a1" class="texter">
-
+<i>This section covers my employment history to date. Please click any of the job titles to see more information.</i><br>
+<br>
 <div onClick="openClose('a11')" style="cursor:hand; cursor:pointer"><h3>Software Development Engineer (SDE) - Amazon / The Book Depository</h3></div>
 <div id="a11" class="texter">
 <p><b><i>June 2014 - Present Slough, United Kingdom</i></b><br><br>
@@ -73,6 +75,18 @@ programming to the new OVM Web Services API, using both SOAP and REST implementa
 </div>
 <br />
 </div>
+
+
+<div onClick="openClose('a3')" style="cursor:hand; cursor:pointer">
+<h2>Technology Experience</h2>
+</div>
+<div id="a3" class="texter">
+Tech exp here
+<br /><br />
+</div>
+
+
+
 
 
 <div onClick="openClose('a2')" style="cursor:hand; cursor:pointer">
@@ -401,23 +415,6 @@ programming to the new OVM Web Services API, using both SOAP and REST implementa
             </div>
 	<br>
 </div>
+<br><br>
+</div>
 <br>
-</div>
-
-<div onClick="openClose('a3')" style="cursor:hand; cursor:pointer">
-<h2>Technology Experience</h2>
-</div>
-<div id="a3" class="texter">
-Tech exp here
-<br /><br />
-</div>
-
-<div onClick="openClose('a4')" style="cursor:hand; cursor:pointer">
-<h2>Everything Else</h2>
-</div>
-<div id="a4" class="texter">
-everything else!
-
-
-<br /><br />
-</div>
