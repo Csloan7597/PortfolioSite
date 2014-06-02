@@ -1,6 +1,9 @@
 package com.csloan.test.controller;
 
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doThrow;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
@@ -21,7 +24,7 @@ import com.csloan.service.MailService;
 public class ContactControllerTest {
 
 	@Mock
-	private MailService sampleService;
+	private MailService mailService;
 
 	@Mock
 	private Message templateMessage;
@@ -33,7 +36,6 @@ public class ContactControllerTest {
 
 	@Before
 	public void setUp() throws Exception {
-
 		// Configure a view resolver to avoid loading spring context
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
 		viewResolver.setPrefix("/WEB-INF/views/");
@@ -56,4 +58,40 @@ public class ContactControllerTest {
 				.andExpect(model().attributeExists("message", "messageSent"))
 				.andExpect(model().attribute("messageSent", false));
 	}
+
+	@Test
+	public void addMessageTest() throws Exception {
+		// Send a POST message which should return fine
+		mockMvc.perform(
+				post("/contact/addMessage").param("name", "Spring Tester")
+						.param("subject", "RE: Test")
+						.param("email", "tester@spring.me")
+						.param("message", "I am testing!"))
+				.andExpect(view().name("contact"))
+				.andExpect(model().attributeExists("message", "messageSent"))
+				.andExpect(model().attributeDoesNotExist("errorMessage"))
+				.andExpect(model().attribute("messageSent", true));
+	}
+
+	@Test
+	public void addMessageRuntimeExceptionTest() throws Exception {
+		// Let mocked service throw a runtimeexception due to some unexpected
+		// error
+		doThrow(new RuntimeException("test")).when(mailService)
+				.sendMessageAsMail(any(Message.class));
+
+		// Send a POST message which should return the error
+		mockMvc.perform(
+				post("/contact/addMessage").param("name", "Spring Tester")
+						.param("subject", "RE: Test")
+						.param("email", "tester@spring.me")
+						.param("message", "I am testing!"))
+				.andExpect(view().name("contact"))
+				.andExpect(
+						model().attributeExists("message", "messageSent",
+								"errorMessage"))
+				.andExpect(model().attribute("messageSent", false))
+				.andExpect(model().attribute("errorMessage", "test"));
+	}
+
 }
