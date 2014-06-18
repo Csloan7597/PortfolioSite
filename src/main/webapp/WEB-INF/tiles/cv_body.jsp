@@ -111,7 +111,7 @@ Tech exp here
                             Final Year Project - An Evaluation of OpenStack
                         </td>
                         <td>
-                            PENDING
+                            1st
                         </td>
                     </tr>
                     <tr>
